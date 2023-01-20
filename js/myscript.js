@@ -6,6 +6,12 @@ console.log(firstName);
 let surName = prompt("Qual'è il tuo cognome?");
 console.log(surName);
 
-//CONCATENO NOME E COGNOME
-let welcome_msg = `Benvenuto ${firstName} ${surName}`;
+//CHIEDO ALL'UTENTE IL SUO COLORE PREFERITO
+let favouriteColour = prompt("Qual'è il tuo colore preferito?");
+console.log(favouriteColour);
+
+//CONCATENO NOME E COGNOME E COLORE PREFERITO
+let welcome_msg = `Benvenuto 
+${firstName} ${surName}, 
+il tuo colore preferito è il ${favouriteColour}`;
 console.log(welcome_msg);
