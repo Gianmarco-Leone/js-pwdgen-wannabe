@@ -15,3 +15,8 @@ let welcome_msg = `Benvenuto
 ${firstName} ${surName}, 
 il tuo colore preferito è il ${favouriteColour}`;
 console.log(welcome_msg);
+
+//SCRIVO NELL'HTML ALL'INTERNO DEL TAG h1
+let my_welcome_title = document.getElementById("welcome_title");
+
+my_welcome_title.innerHTML = welcome_msg;
