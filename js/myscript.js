@@ -1,32 +1,30 @@
 //CHIEDO IL NOME ALL'UTENTE
-let firstName = prompt("Qual'è il tuo nome?");
+const firstName = prompt("Qual'è il tuo nome?");
 
 console.log(firstName);
 
 
 //CHIEDO IL COGNOME ALL'UTENTE
-let surName = prompt("Qual'è il tuo cognome?");
+const surName = prompt("Qual'è il tuo cognome?");
 
 console.log(surName);
 
 
 //CHIEDO ALL'UTENTE IL SUO COLORE PREFERITO
-let favouriteColour = prompt("Qual'è il tuo colore preferito?");
+const favouriteColour = prompt("Qual'è il tuo colore preferito?");
 
 console.log(favouriteColour);
 
 
 //RENDO IL NUMERO 23 UNA VARIABILE INT INVECE DI STRING
-let myInt = 23;
+const myInt = 23;
 
 
 //CONCATENO NOME E COGNOME E COLORE PREFERITO
-let welcome_msg = `${firstName}${surName}${favouriteColour}${myInt}`;
+const welcome_msg = `${firstName}${surName}${favouriteColour}${myInt}`;
 
 console.log(welcome_msg);
 
 
 //SCRIVO NELL'HTML ALL'INTERNO DEL TAG h1
-let my_welcome_title = document.getElementById("welcome_title");
-
-my_welcome_title.innerHTML = welcome_msg;
+document.getElementById("welcome_title").innerHTML = welcome_msg;
